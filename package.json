@@ -1,0 +1,24 @@
+{
+  "name": "talk-apr-2-debug-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/talk-apr-2-debug-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/talk-apr-2-debug-node/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/talk-apr-2-debug-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^7.0.2",
+    "wreck": "^14.2.0"
+  }
+}
