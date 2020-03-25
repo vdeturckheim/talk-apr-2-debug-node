@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "memleak-literal": "autocannon -c 10 -a 10000 http://localhost:8080/mem/literal"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/vdeturckheim/talk-apr-2-debug-node#readme",
   "dependencies": {
+    "autocannon": "^4.6.0",
     "express": "^4.17.1",
     "uuid": "^7.0.2",
     "wreck": "^14.2.0"
